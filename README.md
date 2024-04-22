@@ -1,110 +1,29 @@
-# Namste React
 
-#  What is Emmet?
--  Instead of writing out the full HTML structure for a webpage manually, you can use Emmet abbreviations like html:5 to generate the basic HTML5 structure.
+# MealWheel
 
-# Difference between a Library and Framework?
-- A library is a collection of pre-written code or functions that you can use in your program. It provides specific functionality that you can call from your own code.
-- A framework is a more comprehensive set of tools, rules, and conventions that provides a structure for building applications. 
+MealWheel is a web application for exploring restaurants, managing grocery lists, and more.
 
-# What is CDN? Why do we use it?
-- A CDN, or Content Delivery Network, is a distributed network of servers strategically positioned around the globe to efficiently deliver web content to users. 
+## Description
 
-#  Why is React known as React?
-- It is known as "React" because of its core concept of reactive, or declarative, user interfaces. 
+MealWheel is a React-based web application that provides users with a platform to discover restaurants, manage grocery lists, and more. It utilizes React Router for client-side routing and Redux for state management.
 
-#  What is crossorigin in script tag?
-- The crossorigin attribute is used to control how the browser handles requests for cross-origin scripts. 
+## Features
 
-# What is diference between React and ReactDOM?
-- The React package is the core library for building user interfaces in React. It provides the fundamental functionality for creating and managing components, handling component state and props, and rendering components to the virtual DOM. 
-- The ReactDOM package is responsible for rendering React components to the actual DOM.
+- **Restaurant Exploration:** Browse through a variety of restaurants and their menus.
+- **Grocery Management:** Manage your grocery lists with ease.
+- **User Authentication:** Sign in to access personalized features.
+- **Responsive Design:** Enjoy a seamless experience across devices.
 
-#  What is difference between react.development.js and react.production.js files via CDN?
--  file is intended for development environments.
--  file is intended for production environments.
+- ## Technologies Used
 
-# async and defer attributes in JS?
-- https://www.youtube.com/watch?v=IrHmpdORLu8
+- React
+- React Router
+- Redux
+- React Suspense
+- React.lazy
+- HTML5
+- CSS3
+- JavaScript
 
-
-# Parcel
-- Dev Build
-- Local server
-- HMR = Hot Module Replacement
-- File Watching Algorithm
-- Caching - Faster Builds
-- Image Optimization
-- Minification
-- Bundling
-- Compress
-- Code Splitting
-- Differential Bundling - support older browsers
-- Diagnostics
-- Error handling
-- HTTPS 
-- Tree Shaking - remove unused code 
-- Diff Dev and Prod bundles
-
-
-
-// React.createElement => ReactElement-JS-Object => HTMLElement(render)
-//JSX - HTML or XML-like syntax => (Transpiles the JSX before it reaches the JS engine - PARCEL - By  Babel)
-// JSX => React.createElement => ReactElement-JS-Object => HTMLElement(render)
-
-# Namaste Food
-/**
- * Header
- * - Logo
- * - Nav items
-
- * Body
- - Search
- - RestaurantContainer
-   - RestCard
-    - Image
-    - Name of Rest, Star Rating, Cuisine, delivery time
-
- * Footer
-   -Copyright
-   -Links
-   -Address
-   -Contact
- */
-
-
-
- Two types of Export/Import
-
- - Default Export/Import
- export deafult <name of the var>;
- import <name of the var> from "path";
-
-
- - Named Export/Import
- export const <name of the var> 
- import{comp} from path;
-
-
-
- # Redux ToolKit
-  - Install @reduxjs/toolkit and react-redux
-  -Build our own store
-  -Connect our store to our app
-  -Slice(cartSlice)
-  -Dispatch(action)
-  -Selector
-
-# Setting up Testing in our app
-  - Install React Testing Library
-  - Installed Jest
-  - Installed babel dependencies
-  - Configure babel
-  - Configure parcel config file to disable default babel transpilation
-  - Jest configuration npx jest --init
-  - Intsall jsdom library
-  - Install  @babel/preset-react - to make JSX work in test cases
-  - Include  @babel/preset-react inside my babel config
-  - Install npm i -D @testing-library/jest-dom
 
 
